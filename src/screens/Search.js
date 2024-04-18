@@ -21,7 +21,7 @@ export default function Search(){
 
   function entrarPaginas(cidade){
     if(cidade == "São Paulo"){
-      navigation.navigate("SaoPaulo");
+      navigation.navigate("WeatherDetails",  );
     }
     if(cidade == "Rio de Janeiro"){
       navigation.navigate("RioDeJaneiro");

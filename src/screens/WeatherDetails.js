@@ -3,7 +3,7 @@ import { View, Text , Image, TouchableOpacity, StyleSheet, TextInput, FlatList} 
 import Foto from '../assets/nublado.png'
 import { useNavigation } from "@react-navigation/native";
 
-export default function Search(){
+export default function SaoPaulo(){
   const [cidade, setCidade] = useState([]);
   const [query, setQuery] = useState("");
   useEffect(() => {
