@@ -1,1 +1,55 @@
-{}
+{
+    "previsoes": [
+      {
+        "cidade": "São Paulo",
+        "dados_meteorologicos": [
+          {
+            "data": "2024-04-17",
+            "temperatura_max": 28,
+            "temperatura_min": 18,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento": 10,
+            "direcao_vento": "NE",
+            "umidade": 78,
+            "probabilidade_precipitacao": 10
+          },
+          {
+            "data": "2024-04-18",
+            "temperatura_max": 25,
+            "temperatura_min": 16,
+            "condicao": "Chuvoso",
+            "velocidade_vento": 12,
+            "direcao_vento": "S",
+            "umidade": 85,
+            "probabilidade_precipitacao": 70
+          }
+        ]
+      },
+      {
+        "cidade": "Rio de Janeiro",
+        "dados_meteorologicos": [
+          {
+            "data": "2024-04-17",
+            "temperatura_max": 30,
+            "temperatura_min": 22,
+            "condicao": "Ensolarado",
+            "velocidade_vento": 15,
+            "direcao_vento": "NE",
+            "umidade": 70,
+            "probabilidade_precipitacao": 0
+          },
+          {
+            "data": "2024-04-18",
+            "temperatura_max": 29,
+            "temperatura_min": 21,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento": 10,
+            "direcao_vento": "E",
+            "umidade": 75,
+            "probabilidade_precipitacao": 20
+          }
+        ]
+      }
+    ]
+  }
+  
