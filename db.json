@@ -150,6 +150,157 @@
             "probabilidade_precipitacao":8
           }
         ]
+      },
+      {
+        "cidade": "Santos",
+        "dados_meteorologicos": [
+          {
+            "data": "2024-04-17",
+            "temperatura_max": 28,
+            "temperatura_min": 19,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento":5,
+            "direcao_vento": "SE",
+            "umidade":79,
+            "probabilidade_precipitacao":19,
+            "image": "nublado.png"
+          },
+          {
+            "data": "2024-04-18",
+            "temperatura_max":22 ,
+            "temperatura_min": 19,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento":8 ,
+            "direcao_vento": "SE",
+            "umidade":63,
+            "probabilidade_precipitacao":85
+          },
+          {
+            "data":"2024-04-19",
+            "temperatura_max":25,
+            "temperatura_min":18,
+            "condicao":"Ensolarado",
+            "velocidade_vento":7,
+            "direcao_vento":"S",
+            "umidade":60,
+            "probabilidade_precipitacao":2
+          },
+          {
+            "data":"2024-04-20",
+            "temperatura_max":26,
+            "temperatura_min":17,
+            "condicao":"Ensolarado",
+            "velocidade_vento":6,
+            "direcao_vento":"ENE",
+            "umidade":70,
+            "probabilidade_precipitacao":0
+          },
+          {
+            "data":"2024-04-21",
+            "temperatura_max":27,
+            "temperatura_min":19,
+            "condicao":"Ensolarado",
+            "velocidade_vento":4,
+            "direcao_vento":"SW",
+            "umidade":74,
+            "probabilidade_precipitacao":0
+          },
+          {
+            "data":"2024-04-22",
+            "temperatura_max":29,
+            "temperatura_min":21,
+            "condicao":"Ensolarado",
+            "velocidade_vento":4,
+            "direcao_vento":"SSW",
+            "umidade":77,
+            "probabilidade_precipitacao":2
+          },
+          {
+            "data":"2024-04-23",
+            "temperatura_max":30,
+            "temperatura_min":22,
+            "condicao":"Ensolarado",
+            "velocidade_vento":4,
+            "direcao_vento":"W",
+            "umidade":74,
+            "probabilidade_precipitacao":17
+          },
+          {
+          "cidade": "Jaboticabal",
+          "dados_meteorologicos":[
+            {
+            "data": "2024-04-17",
+            "temperatura_max":30,
+            "temperatura_min":22,
+            "condicao": "Ensolarado",
+            "velocidade_vento":15,
+            "direcao_vento": "NE",
+            "umidade":70,
+            "probabilidade_precipitacao":0
+            },
+            {
+              "data": "2024-04-18",
+              "temperatura_max":28,
+              "temperatura_min":19,
+              "condicao": "Nublado",
+              "velocidade_vento":19,
+              "direcao_vento": "S",
+              "umidade":55,
+              "probabilidade_precipitacao":28
+            },
+            {
+              "data": "2024-04-19",
+              "temperatura_max":29,
+              "temperatura_min":17,
+              "condicao": "Ensolarado",
+              "velocidade_vento":8,
+              "direcao_vento": "ESE",
+              "umidade":47,
+              "probabilidade_precipitacao":6
+            },
+            {
+              "data": "2024-04-20",
+              "temperatura_max":30,
+              "temperatura_min":18,
+              "condicao": "Ensolarado",
+              "velocidade_vento":7 ,
+              "direcao_vento": "E",
+              "umidade":50,
+              "probabilidade_precipitacao":2 
+            },
+            {
+              "data": "2024-04-21",
+              "temperatura_max":31,
+              "temperatura_min":17,
+              "condicao": "Ensolarado",
+              "velocidade_vento":5,
+              "direcao_vento": "ESE",
+              "umidade":41,
+              "probabilidade_precipitacao":1 
+            },
+            {
+              "data": "2024-04-22",
+              "temperatura_max":31,
+              "temperatura_min":18,
+              "condicao": "Ensolarado",
+              "velocidade_vento":5,
+              "direcao_vento": "SSE",
+              "umidade":39,
+              "probabilidade_precipitacao":4
+            },
+            {
+              "data": "2024-04-23",
+              "temperatura_max":30,
+              "temperatura_min":19,
+              "condicao": "Ensolarado",
+              "velocidade_vento":3,
+              "direcao_vento": "SE",
+              "umidade":36,
+              "probabilidade_precipitacao":4 
+            }
+            ]
+          }
+        ]
       }
     ]
   }
