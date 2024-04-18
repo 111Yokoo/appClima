@@ -23,9 +23,11 @@ export default function Search() {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.buttonMaps} onPress={() => navigation.navigate("Map")}>
-        <FontAwesome6 name="map-location-dot" size={24} color="black" />
-      </TouchableOpacity>
+      <View style={{display: "flex", flexDirection: "row", justifyContent: "flex-end", width: "100%", paddingRight: 20, marginVertical: 5}}>
+        <TouchableOpacity style={styles.buttonMaps} onPress={() => navigation.navigate("Map")}>
+          <FontAwesome6 name="map-location-dot" size={24} color="black" />
+        </TouchableOpacity>
+      </View>
       <View style={styles.searchInput}>
         <FontAwesome name="search" size={24} color="black" />
         <TextInput

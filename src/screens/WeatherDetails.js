@@ -8,9 +8,20 @@ export default function WeatherDetails({route}){
 
     return(
         <View style={styles.container}>
-            <Text>
-                {cidade.cidade}
-            </Text>
+            <View>
+              <Text>
+                  {cidade.dados_meteorologicos[1].temperatura_max}°
+              </Text>
+              <Text>
+                {cidade.dados_meteorologicos[1].condicao}
+              </Text>
+            </View>
+            <View>
+
+            </View>
+            <View>
+              
+            </View>
         </View>
     )
 }
