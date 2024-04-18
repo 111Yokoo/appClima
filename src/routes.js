@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "./screens/Login";
 import Search from "./screens/Search";
 import WeatherDetails from "./screens/WeatherDetails";
+import Map from "./screens/Map";
 
 const Stack = createNativeStackNavigator();
 
@@ -12,11 +13,12 @@ export default function Routes() {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName="Login"
+      initialRouteName="Search"
     >
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Search" component={Search} />
       <Stack.Screen name="WeatherDetails" component={WeatherDetails} />
+      <Stack.Screen name="Map" component={Map} />
     </Stack.Navigator>
   );
 }

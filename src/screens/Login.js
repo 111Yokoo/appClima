@@ -32,7 +32,7 @@ export default function Login() {
       setPassword("");
     }
     if(email === credentialsEmail || password === credentialsPassword){
-      navigation.navigate("Home");
+      navigation.navigate("Search");
     }
   }
 
