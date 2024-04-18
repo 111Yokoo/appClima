@@ -19,9 +19,59 @@
             "temperatura_min": 16,
             "condicao": "Chuvoso",
             "velocidade_vento": 12,
-            "direcao_vento": "S",
+            "direcao_vento": "SE",
             "umidade": 85,
             "probabilidade_precipitacao": 70
+          },
+          {
+            "data": "2024-04-19",
+            "temperatura_max": 23,
+            "temperatura_min": 14,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento": 11,
+            "direcao_vento": "ESE",
+            "umidade": 56,
+            "probabilidade_precipitacao": 0
+          },
+          {
+            "data": "2024-04-20",
+            "temperatura_max": 25,
+            "temperatura_min": 15,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento": 9,
+            "direcao_vento": "ESE",
+            "umidade": 53,
+            "probabilidade_precipitacao": 0
+          },
+          {
+            "data": "2024-04-21",
+            "temperatura_max": 27,
+            "temperatura_min": 16,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento": 6,
+            "direcao_vento": "SE",
+            "umidade": 47,
+            "probabilidade_precipitacao": 1
+          },
+          {
+            "data": "2024-04-22",
+            "temperatura_max": 29,
+            "temperatura_min": 17,
+            "condicao": "Ensolarado",
+            "velocidade_vento": 6,
+            "direcao_vento": "S",
+            "umidade": 43,
+            "probabilidade_precipitacao": 3
+          },
+          {
+            "data": "2024-04-23",
+            "temperatura_max": 25,
+            "temperatura_min": 20,
+            "condicao": "Parcialmente nublado",
+            "velocidade_vento": 6,
+            "direcao_vento": "SW",
+            "umidade": 43,
+            "probabilidade_precipitacao": 17
           }
         ]
       },
