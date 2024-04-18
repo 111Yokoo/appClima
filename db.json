@@ -86,7 +86,8 @@
             "velocidade_vento": 15,
             "direcao_vento": "NE",
             "umidade": 70,
-            "probabilidade_precipitacao": 0
+            "probabilidade_precipitacao": 0,
+            "image": "nublado.png"
           },
           {
             "data": "2024-04-18",
