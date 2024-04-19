@@ -2,10 +2,10 @@ import { Text, TouchableOpacity, StyleSheet, View, Image} from "react-native";
 import Foto from '../../assets/nublado.png'
 import { useNavigation } from "@react-navigation/native";
 
-export default function MyButtonCidade({cidade, index}){
+export default function MyButtonCidade({cidade}){
   const navigation = useNavigation();
     return(
-        <TouchableOpacity key={index} onPress={() => navigation.navigate("WeatherDetails", {cidade: cidade})}>
+        <TouchableOpacity onPress={() => navigation.navigate("WeatherDetails", {cidade: cidade})}>
         <View style={styles.itemContainer}>
           <Image style={styles.image} source={Foto} />
           <View style={styles.textContainer}>

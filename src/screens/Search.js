@@ -38,7 +38,7 @@ export default function Search() {
         />
       </View>
       {filteredCidade.map((cidade, index) => (
-         <ButtonCidade cidade={cidade} index={index}/>
+         <ButtonCidade cidade={cidade} key={index}/>
       ))}
     </View>
   )

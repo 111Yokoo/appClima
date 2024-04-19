@@ -1,5 +1,4 @@
 import { View, Text , Image, TouchableOpacity, StyleSheet, TextInput, FlatList} from "react-native";
-
 export default function Map(){
 
 
