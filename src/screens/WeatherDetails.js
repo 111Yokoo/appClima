@@ -34,7 +34,7 @@ export default function WeatherDetails({route}){
                 <PrevisaoDias item={item}/>
               )}/>
               </View>
-              <View style={{display: "flex", flexDirection: "row", justifyContent: "flex-end"}}>
+              <View style={{display: "flex", flexDirection: "row", justifyContent: "flex-start"}}>
                 <TouchableOpacity  onPress={() => navigation.navigate("Search")}>
                   <FontAwesome name="bars" size={30} color="#fff" />
                 </TouchableOpacity>
