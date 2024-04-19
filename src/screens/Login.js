@@ -13,8 +13,8 @@ export default function Login() {
   const [error, setError] = useState("");
   const navigation = useNavigation();
   // Credenciais
-  const credentialsEmail = "aluno@senai.com.br";
-  const credentialsPassword = "aluno123";
+  const credentialsEmail = "instrutor";
+  const credentialsPassword = "senaisp";
 
   function handleSubmit(){
     setError("");
