@@ -13,7 +13,7 @@ export default function Routes() {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName="Search"
+      initialRouteName="Login"rr
     >
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Search" component={Search} />
