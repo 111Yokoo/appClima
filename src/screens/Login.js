@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     color: "#fff",
   },
   errorText:{
-    color: "red",
+    color: "white",
     fontSize: 15
   }
 });
